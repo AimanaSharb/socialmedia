@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+### Dependencies
+
+`axios - для http запроса`
+`react-router-dom - для маршутизации проекта`
+`react-toolkit / react-redux - state manager - бизнес логика`
+`sass - для задания стилей`
+`react-hook-form - для работы с формой`
+`material-ui - для работы с ui компонентами`

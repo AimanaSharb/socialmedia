@@ -1,0 +1,51 @@
+.header{
+ background: $navyblue;
+ padding: 20px 0;
+  color: white;
+ &__nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+  &__left{
+   display: flex;
+   align-items: center;
+   column-gap: 20px;
+
+  }
+
+ &__right{
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  max-width: 230px;
+  width: 100%;
+ }
+
+ &__search{
+  position:relative;
+  &-field{
+   width: 200px;
+   height: 40px;
+   padding: 0 15px 0 25px;
+   font-size: 16px;
+   border-radius: 5px;
+   border: none;
+   outline: none;
+   color: $navyblue;
+   
+
+
+  }
+  &-icon{
+   position: absolute;
+   left: 3px;
+   top: 50%;
+   transform: translateY(-45%);
+  }
+
+ }
+
+
+
+}
